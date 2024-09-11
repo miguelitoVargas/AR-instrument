@@ -19,6 +19,7 @@ export default defineConfig({
     vueJsx(),
     vueDevTools(),
   ],
+  base: '/AR-instrument',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
